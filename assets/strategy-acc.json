@@ -1,0 +1,104 @@
+{
+  "controls": [
+    {
+      "name": "Enabled",
+      "label": "Enabled",
+      "value": "true",
+      "hidden": "true",
+      "type": "checkbox",
+      "validators": {}
+    },
+    {
+      "name": "Exchange",
+      "label": "exchange",
+      "value": "<unkown>",
+      "hidden": "true",
+      "type": "textarea",
+      "validators": {}
+    },
+    {
+      "name": "Strategy",
+      "label": "strategy",
+      "value": "acc",
+      "hidden": "true",
+      "type": "textarea",
+      "validators": {}
+    },
+    {
+      "name": "A",
+      "label": "Asset",
+      "value": "DOGE",
+      "type": "text",
+      "validators": {
+        "required": true,
+        "minLength": 10
+      }
+    },
+    {
+      "name": "B",
+      "label": "Base",
+      "value": "USDT",
+      "type": "text",
+      "validators": {}
+    },
+    {
+      "name": "FREQ",
+      "label": "Poll Frequency",
+      "value": "5m",
+      "hidden": "true",
+      "type": "select",
+      "validators": {
+      },
+      "options": {
+        "5m": "5m"
+      }
+    },
+    {
+      "name": "D",
+      "label": "Buy/Sell",
+      "value": "B",
+      "hidden": "true",
+      "type": "select",
+      "validators": {
+      },
+      "options": {
+        "B": "Buy"
+      }
+    },
+    {
+      "name": "$",
+      "label": "invest$",
+      "value": "10",
+      "type": "number",
+      "validators": {}
+    },
+    {
+      "name": "MaxPrice",
+      "label": "Max Price",
+      "value": "0.00003",
+      "type": "number",
+      "validators": {}
+    },
+    {
+      "name": "accummulateTarget",
+      "label": "Accummulate Target",
+      "value": "0.000025",
+      "type": "number",
+      "validators": {}
+    },
+    {
+      "name": "TP",
+      "label": "Profit Target %",
+      "value": "5.0",
+      "type": "number",
+      "validators": {}
+    },
+    {
+      "name": "cacthDrop",
+      "label": "Catch Drop",
+      "value": "true",
+      "type": "checkbox",
+      "validators": {}
+    }
+  ]
+}

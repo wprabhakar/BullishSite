@@ -1,0 +1,29 @@
+{
+  "controls": [
+    {
+      "name": "Exchange",
+      "label": "Exchange",
+      "value": "kucoin",
+      "type": "select",
+      "validators": {
+      },
+      "options": {
+        "kucoin": "KuCoin",
+        "aax": "AAX",
+        "lbank": "Lbank"
+      }
+    },
+    {
+      "name": "Strategy",
+      "label": "Strategy",
+      "value": "pca",
+      "type": "select",
+      "validators": {
+      },
+      "options": {
+        "pca": "PCA",
+        "acc": "Accummulate"
+      }
+    }
+  ]
+}
