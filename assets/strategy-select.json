@@ -16,13 +16,17 @@
     {
       "name": "Strategy",
       "label": "Strategy",
-      "value": "pca",
+      "value": "acc",
       "type": "select",
       "validators": {
       },
       "options": {
-        "pca": "PCA",
-        "acc": "Accummulate"
+        "pca": "PCA Trading",
+        "acc": "ACC Trading",
+        "fib": "FIB Trading",
+        "blte": "BuyLow TargetExit",
+        "blsh": "BuyLow SellHigh",
+        "shbl": "SellHigh BuyLow"
       }
     }
   ]

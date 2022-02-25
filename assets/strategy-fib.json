@@ -17,14 +17,6 @@
       "validators": {}
     },
     {
-      "name": "Strategy",
-      "label": "strategy",
-      "value": "acc",
-      "hidden": "true",
-      "type": "textarea",
-      "validators": {}
-    },
-    {
       "name": "FREQ",
       "label": "Poll Frequency",
       "value": "5m",
@@ -37,13 +29,21 @@
       }
     },
     {
+      "name": "Strategy",
+      "label": "strategy",
+      "value": "fib",
+      "hidden": "true",
+      "type": "textarea",
+      "validators": {}
+    },
+    {
       "name": "A",
       "label": "Asset",
-      "value": "SHIB",
+      "value": "ZIL",
       "type": "text",
       "validators": {
         "required": true,
-        "minLength": 10
+        "minLength": 2
       }
     },
     {
@@ -55,45 +55,32 @@
     },
     {
       "name": "$",
-      "label": "Amount per trade",
-      "value": 25,
+      "label": "Initial$",
+      "value": 100,
       "type": "number",
       "validators": {}
     },
     {
-      "name": "MaxBuyPrice",
-      "label": "Max Buy Price",
-      "value": 0.00002,
+      "name": "StartPrice",
+      "label": "First Trade Price less than",
+      "value": 0.04,
       "type": "number",
       "validators": {}
     },
     {
-      "name": "AdditionalBuy",
-      "label": "Additional Buy",
-      "value": 0.03,
+      "name": "PriceDn",
+      "label": "PriceDn",
+      "value": 0.01,
       "type": "number",
       "validators": {}
     },
     {
-      "name": "TakeProfit",
-      "label": "Profit Target",
-      "value": 0.05,
-      "type": "number",
-      "validators": {}
-    },
-    {
-      "name": "accummulateTarget",
-      "label": "Accummulate Target",
-      "value": 0.00001,
-      "type": "number",
-      "validators": {}
-    },
-    {
-      "name": "ExitPrice",
-      "label": "Exit Price - when acc target is met",
-      "value": 0.00008,
+      "name": "PriceUp",
+      "label": "PriceUp",
+      "value": 0.01,
       "type": "number",
       "validators": {}
     }
   ]
 }
+

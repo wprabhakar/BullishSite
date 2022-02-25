@@ -25,9 +25,21 @@
       "validators": {}
     },
     {
+      "name": "FREQ",
+      "label": "Poll Frequency",
+      "value": "5m",
+      "hidden": "true",
+      "type": "select",
+      "validators": {
+      },
+      "options": {
+        "5m": "5m"
+      }
+    },
+    {
       "name": "A",
       "label": "Asset",
-      "value": "DOGE",
+      "value": "SHIB",
       "type": "text",
       "validators": {
         "required": true,
@@ -42,71 +54,38 @@
       "validators": {}
     },
     {
-      "name": "FREQ",
-      "label": "Poll Frequency",
-      "value": "5m",
-      "hidden": "true",
-      "type": "select",
-      "validators": {
-      },
-      "options": {
-        "5m": "5m"
-      }
-    },
-    {
       "name": "Initial$",
       "label": "Initial$",
-      "value": "1032",
-      "type": "number",
-      "validators": {}
-    },
-    {
-      "name": "Min$",
-      "label": "Min Trade$",
-      "value": "10.00",
-      "type": "number",
-      "validators": {}
-    },
-    {
-      "name": "BuyResistencePct",
-      "label": "BuyResistence %",
-      "value": "0.8",
-      "type": "number",
-      "validators": {}
-    },
-    {
-      "name": "SellResistencePct",
-      "label": "SellResistence %",
-      "value": "0.8",
-      "type": "number",
-      "validators": {}
-    },
-    {
-      "name": "Qty2AddPct",
-      "label": "Buy % of Balance",
-      "value": "10.00",
-      "type": "number",
-      "validators": {}
-    },
-    {
-      "name": "Qty2ReducePct",
-      "label": "Sell % of Balance",
-      "value": "10.0",
+      "value": 1032,
       "type": "number",
       "validators": {}
     },
     {
       "name": "StartPrice",
       "label": "First Trade Price less than",
-      "value": "10.0",
+      "value": 10.0,
       "type": "number",
       "validators": {}
     },
     {
-      "name": "cacthDrop",
-      "label": "Catch Drop",
-      "value": "true",
-      "type": "checkbox",
+      "name": "Min$",
+      "label": "Min Trade$",
+      "value": 10.00,
+      "type": "number",
+      "validators": {}
+    },
+    {
+      "name": "BuyResistence",
+      "label": "BuyResistence",
+      "value": 0.8,
+      "type": "number",
+      "validators": {}
+    },
+    {
+      "name": "SellResistence",
+      "label": "SellResistence",
+      "value": 0.8,
+      "type": "number",
       "validators": {}
     }
   ]
