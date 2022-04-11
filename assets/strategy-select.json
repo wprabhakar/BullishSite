@@ -21,7 +21,8 @@
       "validators": {
       },
       "options": {
-        "pca": "PCA Trading",
+        "dca": "DCA - Keep Buying",
+        "pca": "PCA Strategy",
         "acc": "ACC Trading",
         "fib": "FIB Trading",
         "blte": "BuyLow TargetExit",
