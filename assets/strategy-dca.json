@@ -70,7 +70,7 @@
     {
       "name": "PriceDown",
       "label": "Buy when Price Falls %",
-      "value": 0.1,
+      "value": 0.05,
       "type": "number",
       "validators": {}
     },
@@ -78,6 +78,13 @@
       "name": "$Times",
       "label": "Increase ($ * times) ",
       "value": 1.02,
+      "type": "number",
+      "validators": {}
+    },
+    {
+      "name": "Profit",
+      "label": "Profit",
+      "value": 0.05,
       "type": "number",
       "validators": {}
     }
