@@ -19,7 +19,7 @@
     {
       "name": "Strategy",
       "label": "strategy",
-      "value": "dca",
+      "value": "dcas",
       "hidden": "true",
       "type": "textarea",
       "validators": {}
@@ -69,7 +69,7 @@
     },
     {
       "name": "PriceUp",
-      "label": "Sell when Price Falls %",
+      "label": "Sell when Price Rises %",
       "value": 0.05,
       "type": "number",
       "validators": {}
