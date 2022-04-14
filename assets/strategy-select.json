@@ -16,12 +16,13 @@
     {
       "name": "Strategy",
       "label": "Strategy",
-      "value": "acc",
+      "value": "dca",
       "type": "select",
       "validators": {
       },
       "options": {
         "dca": "DCA - Keep Buying",
+        "dcas": "DCA - Keep Selling",
         "pca": "PCA Strategy",
         "acc": "ACC Trading",
         "fib": "FIB Trading",
