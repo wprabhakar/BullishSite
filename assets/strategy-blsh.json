@@ -1,6 +1,13 @@
 {
   "controls": [
     {
+      "name": "Pause",
+      "label": "Do not place orders",
+      "value": "false",
+      "type": "checkbox",
+      "validators": {}
+    },
+    {
       "name": "Enabled",
       "label": "Enabled",
       "value": "true",
