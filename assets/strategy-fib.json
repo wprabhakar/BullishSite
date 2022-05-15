@@ -75,6 +75,13 @@
       "validators": {}
     },
     {
+      "name": "UseCandleStick",
+      "label": "Buy on Red Candle",
+      "value": "true",
+      "type": "checkbox",
+      "validators": {}
+    },
+    {
       "name": "PriceDn",
       "label": "PriceDn",
       "value": 0.01,
