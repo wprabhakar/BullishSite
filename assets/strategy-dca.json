@@ -75,6 +75,13 @@
       "validators": {}
     },
     {
+      "name": "UseCandleStick",
+      "label": "Use Candle for Entry",
+      "value": "true",
+      "type": "checkbox",
+      "validators": {}
+    },
+    {
       "name": "PriceDown",
       "label": "Buy when Price Falls %",
       "value": 0.05,
@@ -97,7 +104,7 @@
     },
     {
       "name": "IndividualTransaction",
-      "label": "Take Profit on transaction",
+      "label": "Exit at transaction level",
       "value": "true",
       "type": "checkbox",
       "validators": {}
