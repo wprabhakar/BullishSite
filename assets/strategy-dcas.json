@@ -94,6 +94,13 @@
       "value": 0.05,
       "type": "number",
       "validators": {}
-    }
+    },
+    {
+      "name": "IndividualTransaction",
+      "label": "Take Profit on transaction",
+      "value": "true",
+      "type": "checkbox",
+      "validators": {}
+    }    
   ]
 }
