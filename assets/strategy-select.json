@@ -21,6 +21,7 @@
       "validators": {
       },
       "options": {
+        "bs": "Buy Sell",
         "dca": "DCA - Keep Buying",
         "dcas": "DCA - Keep Selling",
         "pca": "PCA Strategy",
