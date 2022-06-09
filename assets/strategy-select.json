@@ -22,6 +22,7 @@
       },
       "options": {
         "bs": "Buy Sell",
+        "sb": "Sell Buy",
         "dca": "DCA - Keep Buying",
         "dcas": "DCA - Keep Selling",
         "pca": "PCA Strategy",
