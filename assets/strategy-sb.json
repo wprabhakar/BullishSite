@@ -2,7 +2,7 @@
   "controls": [
     {
       "name": "Pause",
-      "label": "Do not place orders",
+      "label": "only close open positions",
       "value": "false",
       "type": "checkbox",
       "validators": {}
